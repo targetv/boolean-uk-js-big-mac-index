@@ -45,3 +45,8 @@ console.log(finalCompareRusvsUs.toFixed() + "%");
 console.log(finalCompareCanvsUs.toFixed() + "%");
 console.log(finalCompareNorvsUs.toFixed() + "%");
 console.log(finalCompareSwivsUs.toFixed() + "%");
+
+console.log(finalCompareCanvsUs > finalCompareNorvsUs);
+console.log(finalCompareCanvsUs > finalCompareRusvsUs);
+console.log(finalCompareCanvsUs > finalCompareSwivsUs);
+console.log(finalCompareCanvsUs > finalCompareUkvsUs);
