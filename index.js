@@ -35,7 +35,7 @@ let compareUsNor = bigMacPrices["nor"] / bigMacPrices["us"];
 let compareUsSwi = bigMacPrices["swi"] / bigMacPrices["us"];
 
 let finalCompareUkvsUs = ((compareUsUK - 1.39) / compareUsUK) * 100;
-let finalCompareRusvsUs = ((compareUsRus - 74.99) / compareUsRus) * 100;
+let finalCompareRusvsUs = ((compareUsRus - 0.013) / compareUsRus) * 100;
 let finalCompareCanvsUs = ((compareUsCan - 1.24) / compareUsCan) * 100;
 let finalCompareNorvsUs = ((compareUsNor - 8.3) / compareUsNor) * 100;
 let finalCompareSwivsUs = ((compareUsSwi - 0.91) / compareUsSwi) * 100;
